@@ -77,7 +77,7 @@ function createFullName(firstName, lastName) {
 }
 // functions should be verbs since they are action words
 
-// 5 mthods on the Array
+// 5 methods on the Array
 // Map, reduce, for each, filter, Splice 
 // map - used to invoke a function for each element in an array and create a new array from the return values of each iterations function invocation
 // useful to transform the data in an array in some manner
