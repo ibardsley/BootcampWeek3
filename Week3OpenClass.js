@@ -179,3 +179,93 @@ console.log(isBlue(a));
 // function isBlue(var1){
 //     return var1.toLowerCase() === "blue";
 // }
+
+
+// **Function *loopUntilX***: Write a function named ***loopUntilX*** that takes one parameter. 
+// Within the function, write a loop that loops as many times as the passed in value, starting at 0. 
+// Within the loop, print the number of iterations to the console. Once the loop is done, return true.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var x = input[0];
+
+//write your code below
+
+function loopUntilX(test){
+    for(let i = 0; i < test; i++){
+        console.log(i);
+    } console.log("true");
+}
+//do not change below, used for testing purposes
+console.log(loopUntilX(x));
+
+// correct answer
+function loopUntilX(x){
+    for(let i = 0; i < x; i++){
+        console.log(i);
+    }
+    return true;
+}
+
+
+// Function speakFriend: Write a function named speakFriend that takes one parameter. 
+// Return the string "Access Denied". But, if the passed in value is "Mellon", return "Enter"
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = input[0];
+
+//write your code below
+
+function speakFriend(a){
+    if (a == "Mellon") {
+        return "Enter";
+    } else {
+        return "Access Denied";
+    }
+}
+//do not change below
+console.log(speakFriend(a));
+
+
+// Function checkout: Create a function named checkout that accepts 2 parameters named cardBalance and price. 
+// If the price is more than the card balance, return false; otherwise, return the new card balance.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+//write your code below
+
+function checkout(cardBalance, price){
+    if (price > cardBalance){
+        return false
+    } return cardBalance - price
+}
+
+//do not change below, used for testing purposes
+console.log(checkout(a,b));
+
+
+
+// Function findCircumference: 
+// Create a function named findCircumference that returns the circumference of a circle if given the radius.
+// The formula to find the circumference of a circle is PI * 2r where r is the radius.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+
+//write your code below
+
+function findCircumference(i){
+    return Math.PI * (i + i);
+}
+// **another way to write**
+// function findCircumference(radius){
+//     return Math.PI * (2 * radius);
+// }
+
+//do not change below, used for testing purposes
+console.log(findCircumference(a));
