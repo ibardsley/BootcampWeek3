@@ -144,6 +144,8 @@ function willBuyDrink(isHotOutside, moneyInPocket){
 willBuyDrink(true, 20.50);
 
 console.log("Question #13")
+// I created this function to help my kids know what they should wear if it is cold outside based on what temperature it is
+// because they never seem to be able to remember.
 
 function wearCoatOutside(isColdOutside, temperature){
    
