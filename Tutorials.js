@@ -132,7 +132,7 @@ console.log(removedElement);
 // sturcture that logically groups data and functionality together
 // properties and functionality
 // Object literals make up an objects property and functionality or mthods
-// wrapping a comma separated list of key value pairs inside curly braces
+// wrapping a comma separated list of key value pairs inside curly braces.
 // object representation of a DVD player
 // inside {} is the object literal with properties to describe the object
 var dvdPlayer = {
@@ -162,7 +162,7 @@ dvdPlayer.printDVDName();
 
 // assignment =, equality ==, and idenity === (strict equality) 
 // equality will check if two values are the same and convert types to see
-// if they are a match "2" and 2 will evaluate to true
+// if they are a match. "2" and 2 will evaluate to true
 // equality will say if they are equal
 // identity operator only returns true it it operens are both the same value and same type
 // identity is used as the rule, equality only used when an exceptional need is presented
