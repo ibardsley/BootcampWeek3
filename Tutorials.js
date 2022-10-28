@@ -108,7 +108,7 @@ names.forEach(function(element) {
     console.log(element);
 })
 
-// Filter allows us to invole a function that returns a boolean value on each element in an arrya
+// Filter allows us to invoke a function that returns a boolean value on each element in an arrya
 // returns a new array that contains all the elements where the invoked method returns true
 // this allows us to use a boolean expression to filter out certain expressions and only keep the ones that pass our boolean
 // filter for even number of characters
@@ -131,7 +131,7 @@ console.log(removedElement);
 // Objects
 // sturcture that logically groups data and functionality together
 // properties and functionality
-// Object literals make up an objects property and functionality or mthods
+// Object literals make up an objects property and functionality or methods
 // wrapping a comma separated list of key value pairs inside curly braces.
 // object representation of a DVD player
 // inside {} is the object literal with properties to describe the object
